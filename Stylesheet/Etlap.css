@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .main{
     width: 1080px;
     margin: 100px auto;
@@ -74,6 +76,9 @@
 }
 
 .menu-content a{
+     color: black;
+    text-decoration: none;
+    font-size: 18px;
     border-radius: 10px;
     padding: 7px 9px;
 }
