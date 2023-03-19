@@ -16,24 +16,19 @@ header {
     background-color: #DDA15E;
 }
 
-li{
+nav ul li{
     list-style: none;
-}
-
-a{
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 10px;
-    padding: 7px 9px;
 }
 
 nav ul li a{
     border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
     padding: 7px 9px;
 }
 
-a:hover,a.active{
+nav ul li a:hover,a.active{
     background-color: chocolate;
     transition: .5s;
     color: white;
@@ -48,6 +43,7 @@ a:hover,a.active{
     background-color: #DDA15E;
     width: 100%;
     position: fixed;
+    z-index: 90;
 }
 
 .nav-menu{
@@ -59,7 +55,8 @@ a:hover,a.active{
 
 .nav-bradning{
     font-size: 20px;
-
+    color: black;
+    text-decoration: none;
 }
 
 .nav-link{
