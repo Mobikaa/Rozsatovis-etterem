@@ -26,7 +26,7 @@
     transition: height 200ms ease;
 }
 
-.wrapper.active{
+.wrapper.active {
     height: 520px;
 }
 
@@ -164,4 +164,9 @@
 
 .login-register p a:hover {
     text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
 }

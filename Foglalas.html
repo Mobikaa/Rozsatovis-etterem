@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, shrink-to-fit=no">
@@ -8,9 +9,10 @@
     <meta name="keywords" content="étterem, Budapest, Rózsatövis, rózsa">
     <title>Rózsatövis Étterem - Galéria</title>
     <link rel="icon" href="kepek/rose.png">
-   <link rel="stylesheet" href="stylesheet.css"> 
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="Stylesheet/Foglalas.css">
 </head>
+
 <body>
     <nav class="navbar">
         <a href="Kezdolap.html" class="nav-bradning">Rózsatövis Étterem</a>
@@ -29,18 +31,85 @@
         </div>
         <script src="js.js"></script>
     </nav>
-    
+
     <section id="fejleckep">
-        <div class="container">
-            <div class="fejleckep">
-             <img id="fejlec" src="kepek/fejlec.jpg" alt="A fejléc képe">
-            </div>
-         <div class="fejleckep-szoveg">
-             <h1 style="padding-top: 50px; text-align: center; text-shadow: 5px 5px 5px darkgray">Asztalfoglalás</h1>
-         </div>
+
+        <div class="fejleckep">
+            <img id="fejlec" src="kepek/fejlec.jpg" alt="A fejléc képe">
+        </div>
+        <div class="fejleckep-szoveg">
+            <h1>Asztalfoglalás</h1>
         </div>
     </section>
+    <div class="container">
 
+        <div class="box">
+            <div class="column">
+                <div class="form-box">
+                    <form action="#">
+
+                        <div class="form-input">
+                            <label for="nev"> Név: </label><br>
+                            <input type="text" name="nev" id="nev" required>
+                        </div>
+
+                        <div class="form-input">
+                            <label for="szemszam"> Személyek száma: </label><br>
+                            <input type="number" name="szemszam" id="szemszam" required>
+                        </div>
+
+                        <div class="form-input">
+                            <label for="idopont"> Válasszon időpontot: </label><br>
+                            <input type="datetime-local" name="idopont" id="idopont" required>
+                        </div>
+
+
+                        <div class="form-input">
+                            <label for="telszam"> Telefonszám: </label><br>
+                            <input type="text" name="telszam" id="telszam" required>
+                        </div>
+
+                        <div class="form-input">
+                            <label for="email">E-mail:</label><br>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+
+                        <div class="form-input">
+                            <label for="megjegyzes">Megjegyzés:</label><br>
+                            <textarea name="megjegyzes" id="megjegyzes"></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Asztalfoglalás</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="column vidi">
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Ebben a böngészőben nem lehet megjeleníteni a videót.
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container2"></div>
+        <div class="row">
+            <h4>Elérhetőségek:</h4>
+            <ul>
+                <li>
+                    <p>+36 12 345 6789</p>
+                </li>
+                <li>
+                    <p>1234 Budapest, Példa utca 24.</p>
+                </li>
+                <li>
+                    <p>rozsatovis@info.hu</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
+
 </html>
