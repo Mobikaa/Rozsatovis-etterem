@@ -1,0 +1,6 @@
+.container .fejleckep img{
+    height: 500px;
+    width: 100%;
+    object-fit: none;
+    object-position: 100%;
+}

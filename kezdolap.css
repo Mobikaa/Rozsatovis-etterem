@@ -1,0 +1,168 @@
+.container img{
+    height: 500px;
+    width: 100%;
+    object-fit: none;
+    object-position: 100%;
+}
+#kezdolap{
+    padding: 10px 13%;
+}
+
+.kezdolap{
+    width: 100%;
+    min-height: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.kezdolap-kep img{
+    max-width: 100%;
+    width: auto;
+    height: 700px;
+}
+
+.kezdolap-szoveg{
+    padding: 15px 10px;
+    font-family: cursive;
+    text-shadow: 5px 5px 5px black;
+    color: white;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+.kezdolap-doboz{
+    background-color: #606C38;
+    padding: 15px 10px;
+    border-right: solid #283618 5px;
+    border-bottom: solid #283618 5px;
+}
+
+h2{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    padding-top: 10px;
+}
+
+#etelekitalok{
+    padding: 10px 13%;
+}
+
+.etelekitalok{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+#etelekitalokkep{
+    max-width: 100%;
+    width: 675px;
+    height: auto;
+}
+
+.kezdolap-etelekitalok{
+    background-color: #606C38;
+    padding: 15px 10px;
+    border-left: solid #283618 5px;
+    border-bottom: solid #283618 5px;
+}
+
+.gomb{
+    display: inline-block;
+    border-radius: 10px;
+    color: black;
+    background-color: #DDA15E;
+    text-align: center;
+    padding: 10px 10px;
+    border: solid #283618 2px;
+    margin: 10px 20px;
+}
+.arazas{
+    padding: 0 200px;
+}
+#kiszallitass{
+    width: 300px;
+    height: auto;
+    background-color: #283618;
+
+}
+
+#kiszallitas{
+    padding: 15px 13%;
+}
+
+table, th, td {
+    padding: 1rem;
+    color: white;
+    border-collapse: collapse;
+    border: solid #283618 2px;
+}
+
+thead th {
+    background-color: #283618;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #DDA15E;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #606C38;
+}
+
+tbody tr:hover {
+    background-color: chocolate;
+}
+
+.video{
+    width: 600px;
+    height: 437px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+}
+
+#multimedia{
+    padding: 10px 13%;
+}
+
+.multimedia{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+
+}
+
+.zene {
+    background-color: #606C38;
+    padding: 15px 15px 15px 15px;
+    border-left: solid #283618 5px;
+    border-bottom: solid #283618 5px;
+    position: static;
+}
+
+
+.asztalok{
+    padding: 10px 13%;
+}
+
+#asztalok-szoveg{
+    background-color: #606C38;
+    padding: 15px 10px;
+    border: solid #283618 5px;
+}
+
+.asztalkep img{
+    padding: 30px 0;
+    width: 100%;
+    height: auto;
+}
+
