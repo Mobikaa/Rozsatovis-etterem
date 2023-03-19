@@ -10,13 +10,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 80px;
     margin-inline: 5px;
 }
 
 .container .heading {
     width: 30%;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 45px;
 }
 
