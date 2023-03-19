@@ -20,8 +20,7 @@ li{
     list-style: none;
 }
 
-nav a{
-    border-radius: 10px;
+a{
     color: black;
     text-decoration: none;
     font-size: 18px;
@@ -29,7 +28,12 @@ nav a{
     padding: 7px 9px;
 }
 
-nav ul li a:hover,a.active{
+nav ul li a{
+    border-radius: 10px;
+    padding: 7px 9px;
+}
+
+a:hover,a.active{
     background-color: chocolate;
     transition: .5s;
     color: white;
@@ -44,7 +48,6 @@ nav ul li a:hover,a.active{
     background-color: #DDA15E;
     width: 100%;
     position: fixed;
-    z-index: 90;
 }
 
 .nav-menu{
@@ -56,6 +59,7 @@ nav ul li a:hover,a.active{
 
 .nav-bradning{
     font-size: 20px;
+
 }
 
 .nav-link{
