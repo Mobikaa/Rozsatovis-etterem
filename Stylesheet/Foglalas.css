@@ -1,6 +1,106 @@
-.container .fejleckep img{
+:root {
+    --zold: #283618;
+}
+
+.fejleckep img {
     height: 500px;
     width: 100%;
     object-fit: none;
     object-position: 100%;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 5px 5px 5px darkgray;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.container .box .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.container .box .column video {
+    margin-top: 7.5%; 
+    width: 80%;
+    border-radius: 5px;
+    animation: fadein 500ms normal;
+    margin-bottom: 20px;
+}
+
+.container .form-box {
+    border: 2px solid #283618;
+    border-radius: 10px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 70%;
+    font-size: 1.5rem;
+    margin-left: 5%;
+}
+
+label {
+    font-size: 1.1rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    width: 50%;
+    height: 45px;
+    background-color: var(--zold);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #FEFAE0;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.form-input {
+    padding: 20px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media(max-width: 1000px) {
+    .container .box {
+        flex-direction: column;
+    }
+
+    .container .box .column {
+        width: 100%;
+    }
+}
+
+footer {
+    position: absolute;
 }
