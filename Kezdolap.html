@@ -12,13 +12,26 @@
     <link rel="stylesheet" href="Stylesheet/kezdolap.css">
     <style>
         @media print {
-            p { font-size: 12pt; }
-            video, audio { display: none; }
-            h1, h2, h3 { page-break-after: avoid; }
-        }
 
-        @page {
-            margin: 0.5cm; }
+            .kezdolap-szoveg{
+                text-shadow: none;
+            }
+
+            body{
+                background: none;
+                text-shadow: none;
+                color: black;
+                border: none;
+
+            }
+            p, h1, h2, h4 { font-size: 12pt;color: black}
+            video, audio, iframe, nav, img, button, footer, a, .kezdolap-doboz, .footer{ display: none; }
+            h1, h2, h3, h4, section, div, table { page-break-after: avoid; }
+
+        }
+        @page  {
+            margin: 0.1cm;
+        }
     </style>
 
 </head>
