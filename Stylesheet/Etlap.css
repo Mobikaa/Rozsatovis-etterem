@@ -73,6 +73,17 @@
     margin: 0 auto;
 }
 
+.menu-content a{
+    border-radius: 10px;
+    padding: 7px 9px;
+}
+
+.menu-content a:hover{
+    background-color: chocolate;
+    transition: .5s;
+    color: white;
+}
+
 
 
 
