@@ -128,7 +128,42 @@ h4{
     padding: 10px 10px;
 }
 
+.profil{
+    text-align: left;
+    padding-left: 150px;
+    padding-top: 150px;
+    padding-bottom: 345px;
+}
 
+.kosar{
+    text-align: right;
+    padding-top: 100px;
+    padding-right: 100px;
+}
 
+.button {
+    background-color: #DDA15E; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #DDA15E;
+    color: black;
+    border-radius: 10px;
+}
+
+.button1:hover {
+    background-color: #606C38;
+    color: white;
+}
 
 

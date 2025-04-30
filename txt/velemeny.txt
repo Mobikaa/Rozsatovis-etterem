@@ -1,0 +1,6 @@
+a:3:{s:8:"username";s:7:"ProbaxD";s:5:"email";s:17:"probaxd@gmail.com";s:7:"comment";s:35:"Nagyon jó étterem, fincsi a kaja!";}
+a:3:{s:8:"username";s:6:"Proba3";s:5:"email";s:16:"proba3@gmail.com";s:7:"comment";s:17:"Prémium ételek.";}
+a:3:{s:8:"username";s:6:"Proba4";s:5:"email";s:16:"proba4@gmail.com";s:7:"comment";s:14:"Good food 👍";}
+a:3:{s:8:"username";s:6:"Proba1";s:5:"email";s:15:"proba@gmail.com";s:7:"comment";s:24:"Legjobb étterem valaha!";}
+a:3:{s:8:"username";s:4:"cica";s:5:"email";s:14:"cica@gmail.com";s:7:"comment";s:56:"Nagyon jó árban vannak az ételek és még finomak is.";}
+a:3:{s:8:"username";s:7:"valami3";s:5:"email";s:17:"valami2@gmail.com";s:7:"comment";s:4:"👌";}

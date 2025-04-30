@@ -1,0 +1,8 @@
+Felhasználó: Proba
+	 Név: Proba Nev
+	 Személyek: 2
+	 Idopont: 2023-04-15T20:07
+	 Telefonszam: 0630 123 1234
+	 Email: proba@gmail.com
+	 Megjegyzes: XD
+

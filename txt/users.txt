@@ -1,0 +1,3 @@
+a:3:{s:8:"username";s:4:"cica";s:8:"password";s:60:"$2y$10$Zm2vFbNxj3m5yjUdssUmeeLyEVyieq1RkvLZBgktPixT4m0wKr40G";s:5:"email";s:14:"cica@gmail.com";}
+a:3:{s:8:"username";s:7:"valami3";s:8:"password";s:60:"$2y$10$u3/QUwxCk9LFgQ/gOCUXFeBhRPE0zhDjYNsW6txSZbfFHSmMYq1DK";s:5:"email";s:17:"valami2@gmail.com";}
+a:3:{s:8:"username";s:9:"probauser";s:8:"password";s:60:"$2y$10$xijWQwbkYT.66XVynwfK2uDoY54Rx6cpUP/V41Rtg2MILygmvCuOy";s:5:"email";s:16:"proba1@gmail.com";}

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -27,14 +30,20 @@
 
 <header>
   <nav class="navbar">
-    <a href="Kezdolap.html" class="nav-bradning">Rózsatövis Étterem</a>
+    <a href="Kezdolap.php" class="nav-bradning">Rózsatövis Étterem</a>
     <ul class="nav-menu">
-      <li class="nav-item"><a class="nav-link" href="Kezdolap.html">Kezdőlap</a></li>
-      <li class="nav-item"><a class="nav-link" href="Etlap.html">Étlap</a></li>
-      <li class="nav-item"><a class="nav-link, active" href="Itallap.html">Itallap</a></li>
-      <li class="nav-item"><a class="nav-link" href="Foglalas.html">Asztalfoglalás</a></li>
-      <li class="nav-item"><a class="nav-link" href="Galeria.html">Galéria</a></li>
-      <li class="nav-item"><a class="nav-link" href="Account.html">Bejelentkezés</a></li>
+        <li class="nav-item"><a class="nav-link" href="Kezdolap.php">Kezdőlap</a></li>
+        <li class="nav-item"><a class="nav-link" href="Etlap.php">Étlap</a></li>
+        <li class="nav-item"><a class="nav-link active" href="Itallap.php">Itallap</a></li>
+        <li class="nav-item"><a class="nav-link" href="Galeria.php">Galéria</a></li>
+        <?php if (isset($_SESSION["user"])) { ?>
+            <li class="nav-item"><a class="nav-link" href="Foglalas.php">Asztalfoglalás</a></li>
+            <li class="nav-item"><a class="nav-link" href="Profil.php">Profil</a></li>
+            <li class="nav-item"><a class="nav-link" href="Kijelentkezes.php">Kijelentkezés</a></li>
+        <?php } else { ?>
+            <li class="nav-item"><a class="nav-link" href="Account.php">Bejelentkezés</a></li>
+            <li class="nav-item"><a class="nav-link" href="Regisztracio.php">Regisztráció</a></li>
+        <?php } ?>
     </ul>
     <div class="hamburger">
       <span class="bar"></span>
@@ -57,7 +66,6 @@
         <img id="ital1" src="kepek/ital-asvanyviz.jpg" alt="asvanyviz">
         <div class="menu-content">
           <h5>Ásványvíz 0,33 l<span class="ar">490 Ft</span></h5>
-          <a href="#">Kosárba</a>
         </div>
       </div>
 
@@ -65,7 +73,6 @@
         <img id="ital2" src="kepek/ital-cocacola.jpg" alt="cocacola">
         <div class="menu-content">
           <h5>Coca Cola 0,25 l <span class="ar">650 Ft</span></h5>
-          <a href="#">Kosárba</a>
         </div>
       </div>
 
@@ -73,7 +80,6 @@
         <img id="ital3" src="kepek/ital-gyumolcsle.jpg" alt="gyumolcsle">
         <div class="menu-content">
           <h5>Gyümölcslé 0,25 l<span class="ar">650 Ft</span></h5>
-          <a href="#">Kosárba</a>
         </div>
       </div>
 
@@ -81,7 +87,6 @@
         <img id="ital4" src="kepek/ital-forrocsoki.jpg" alt="forrocsoki">
         <div class="menu-content">
           <h5>Forrócsoki<span class="ar">700 Ft</span></h5>
-          <a href="#">Kosárba</a>
         </div>
       </div>
 
@@ -89,7 +94,6 @@
         <img id="ital5" src="kepek/ital-kave.jpg" alt="kave">
         <div class="menu-content">
           <h5>Kávé<span class="ar">500 Ft</span></h5>
-          <a href="#">Kosárba</a>
         </div>
       </div>
 
@@ -97,7 +101,6 @@
         <img id="ital6" src="kepek/ital-tea.jpg" alt="tea">
         <div class="menu-content">
           <h5>Tea<span class="ar">550 Ft</span></h5>
-          <a href="#">Kosárba</a>
         </div>
       </div>
 
@@ -105,7 +108,6 @@
         <img id="ital7" src="kepek/ital-limonade.jpg" alt="limonade">
         <div class="menu-content">
           <h5>Házi limonádé 0,5 l<span class="ar">1000 Ft</span></h5>
-          <a href="#">Kosárba</a>
         </div>
       </div>
 
@@ -113,7 +115,6 @@
         <img id="ital8" src="kepek/ital-bor.jpg" alt="bor">
         <div class="menu-content">
           <h5>Vörösbor<span class="ar">800 Ft</span></h5>
-          <a href="#">Kosárba</a>
         </div>
       </div>
 
@@ -121,7 +122,6 @@
         <img id="ital9" src="kepek/ital-sor.jpg" alt="bor">
         <div class="menu-content">
           <h5>Csapolt sör<span class="ar">700 Ft</span></h5>
-          <a href="#">Kosárba</a>
         </div>
       </div>
 
@@ -129,7 +129,6 @@
         <img id="ital10" src="kepek/ital-koktel.jpg" alt="koktel">
         <div class="menu-content">
           <h5>Koktél<span class="ar">1000 Ft</span></h5>
-          <a href="#">Kosárba</a>
         </div>
       </div>
 
