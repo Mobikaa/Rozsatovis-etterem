@@ -1,0 +1,2 @@
+# Rózsatövis étterem
+Ez a projekt a webtervezés alapjai kurzusra készült csapatmunka. A projektben egy képézeletbeli étterem weboldalát készítettük el egy 2 fős csapatban. A projektben HTML, CSS, Javascript és PHP-t használtunk.
